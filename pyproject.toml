@@ -1,0 +1,11 @@
+[project]
+name = "selenium-python-testing"
+version = "0.1.0"
+description = "Pet Hydro-Feed Calculator UI and Validation tests"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pytest>=9.1.1", "selenium>=4.49.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"

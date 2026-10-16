@@ -1,0 +1,12 @@
+﻿.venv/
+__pycache__/
+.pytest_cache/
+test-results/
+app-under-test/
+.env
+.env.*
+*.db
+*.db-shm
+*.db-wal
+TEST_RESULTS.md
+TEST_UPDATE.md
